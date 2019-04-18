@@ -1,0 +1,15 @@
+$ npm init # команда инициализации пакета. Создаётся 'package.json'
+
+    Пример структуры пакета:
+	~/projects/smallTalkWithHexlet$ ls -al
+	drwxrwxr-x  2 hex hex 4096 июн 12 16:35 ./
+	drwxrwxr-x 18 hex hex 4096 июн 12 16:22 ../
+	-rw-rw-r--  1 hex hex  340 июн 12 16:49 package.json
+	-rwxrwxr-x  1 hex hex   69 июн 12 16:29 sayBye.js*
+	-rwxrwxr-x  1 hex hex   52 июн 12 16:31 sayHi.js*
+
+ Согласно примеру меняем права доступа и исполнения:
+$ chmod 771 sayHi.js
+$ chmod 771 sayBye.js 
+$ chmod 664 package.json
+

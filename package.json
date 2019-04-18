@@ -1,0 +1,26 @@
+{
+  "name": "rekoshed",
+  "version": "1.0.0",
+  "description": "This is the tutorial version",
+  "main": "",
+  "bin": {
+    "sayHi": "./sayHi.js",
+    "sayBye": "./sayBye.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Rekoshed"
+  ],
+  "author": "Alexey Vidyakin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rekoshed/rekoshed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rekoshed/rekoshed/issues"
+  },
+  "homepage": "https://github.com/Rekoshed/rekoshed#readme"
+}
